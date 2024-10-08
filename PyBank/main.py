@@ -15,10 +15,10 @@ import csv
 import os
 
 # Files to load and output (update with correct file paths)
-#file_to_load = os.path.join("/Users/Angelina/Desktop/DA_Course/classwork_Spot/challenges/03.04-Challenge-Starter_Code/03_python-challenge/PyBank/Resources", "budget_data.csv")  # Input file path
-#file_to_output = os.path.join("/Users/Angelina/Desktop/DA_Course/classwork_Spot/challenges/03.04-Challenge-Starter_Code/03_python-challenge/PyBank/analysis", "budget_analysis.txt")  # Output file path
-file_to_load = os.path.join("..", "Resources", "budget_data.csv")  # Input file path
-file_to_output = os.path.join("..", "analysis", "budget_analysis.txt")  # Output file path
+# file_to_load = os.path.join("/Users/Angelina/Desktop/DA_Course/classwork_Spot/challenges/03.04-Challenge-Starter_Code/03_python-challenge/PyBank/Resources", "budget_data.csv")  # Input file path
+# file_to_output = os.path.join("/Users/Angelina/Desktop/DA_Course/classwork_Spot/challenges/03.04-Challenge-Starter_Code/03_python-challenge/PyBank/analysis", "budget_analysis.txt")  # Output file path
+file_to_load = os.path.join(".", "Resources", "budget_data.csv")  # Input file path
+file_to_output = os.path.join(".", "analysis", "budget_analysis.txt")  # Output file path
 
 # Define variables to track 
 months = [] #list that will store months

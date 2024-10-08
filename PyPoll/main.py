@@ -15,10 +15,10 @@ import csv
 import os
 
 #' Files to load and output (update with correct file paths)
-# file_to_load = os.path.join("/Users/Angelina/Desktop/DA_Course/classwork_Spot/challenges/03.04-Challenge-Starter_Code/03_python-challenge/PyPoll/Resources", "election_data.csv")  # Input file path
+# file_to_load = os.path.join("/Users/Angelina/Desktop/DA_Course/classwork_Spot/challenges/03.04-Challenge-Starter_Code/03_python-challenge/PyPoll/Resources", "election_data.csv")  # Input absolute file path
 # file_to_output = os.path.join("/Users/Angelina/Desktop/DA_Course/classwork_Spot/challenges/03.04-Challenge-Starter_Code/03_python-challenge/PyPoll/analysis", "election_analysis.txt")  # Output file path
-file_to_load = os.path.join("..", "Resources", "election_data.csv")  # Input file path
-file_to_output = os.path.join("..", "analysis", "election_analysis.txt")  # Output file path
+file_to_load = os.path.join(".", "Resources", "election_data.csv")  # Input file path
+file_to_output = os.path.join(".", "analysis", "election_analysis.txt")  # Output file path
 
 #' Initialize variables to track the election data
 total_votes = 0  # Track the total number of votes cast
@@ -62,7 +62,7 @@ with open(file_to_load) as election_data: #open csv file and label it election_d
 #' Open a text file to save the output
 with open(file_to_output, "w") as txt_file: #creates text file in write mode
 
-        # Print the total vote count (to terminal) & write to text file
+    # Print the total vote count (to terminal) & write to text file
     print("Election Results")
     print("-------------------------")
     print(f"Total Votes: {total_votes}")
