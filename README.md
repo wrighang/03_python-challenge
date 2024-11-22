@@ -1,7 +1,7 @@
-# python-challenge
-[PyBank.py Assignment](.PyBank/main.py)
+# 03_python-challenge
+[PyBank.py Completed Assignment](.PyBank/main.py)
 
-[PyPoll.py Assignment](.PyPoll/main.py)
+[PyPoll.py Completed Assignment](.PyPoll/main.py)
 
 ## PyBank Instructions
 
