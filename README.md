@@ -1,6 +1,7 @@
 # python-challenge
-[PyBank .py code](.PyBank/main.py)
-[PyPoll .py code](.PyPoll/main.py)
+[PyBank.py Assignment](.PyBank/main.py)
+
+[PyPoll.py Assignment](.PyPoll/main.py)
 
 ## PyBank Instructions
 
