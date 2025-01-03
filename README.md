@@ -1,7 +1,7 @@
 # 03_python-challenge
-[PyBank.py Completed Assignment](https://github.com/wrighang/03_python-challenge/blob/main/PyBank/main.py)
+[PyBank.py](https://github.com/wrighang/03_python-challenge/blob/main/PyBank/main.py)
 
-[PyPoll.py Completed Assignment](https://github.com/wrighang/03_python-challenge/blob/main/PyPoll/main.py)
+[PyPoll.py](https://github.com/wrighang/03_python-challenge/blob/main/PyPoll/main.py)
 
 ## PyBank Instructions
 
